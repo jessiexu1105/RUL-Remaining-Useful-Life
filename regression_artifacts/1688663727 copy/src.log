@@ -1,0 +1,56 @@
+2023-07-06 12:15:28,152 - src.training.data_cleaning - INFO - No Negative Values Detected
+2023-07-06 12:15:28,196 - src.training.data_cleaning - INFO - All Columns Have Valid Inputs
+2023-07-06 12:15:32,402 - src.training.data_cleaning - INFO - No Duplicated Columns Detected
+2023-07-06 12:15:32,987 - src.training.time_dimension - INFO - 24h DataFrame Created
+2023-07-06 12:15:32,991 - src.training.time_dimension - INFO - 5d DataFrame Created
+2023-07-06 12:15:33,057 - src.training.LSTM - INFO - 24h Encoder and Scaler saved to artifacts/1688663727
+2023-07-06 12:15:33,066 - src.training.LSTM - INFO - 24h LSTM Grid Search Started
+2023-07-06 12:19:51,115 - src.training.LSTM - INFO - 24h LSTM Grid Search Finished
+2023-07-06 12:19:51,116 - src.training.LSTM - INFO - 24h LSTM Best Hyperparameters: {'dropout': 0.2, 'initial_learning_rate': 0.01}
+2023-07-06 12:19:51,435 - src.training.LSTM - INFO - 24h LSTM Model Fitting Started
+2023-07-06 12:23:57,111 - src.training.LSTM - INFO - Model saved to artifacts/1688663727/LSTM
+2023-07-06 12:23:59,758 - src.training.LSTM - INFO - 24h LSTM Test Loss: 721.114013671875, RMSE: 26.853566125784393
+2023-07-06 12:24:00,426 - src.training.LSTM - INFO - Figure saved to artifacts/1688663727/LSTM/24h_LSTM_loss_evolution.png
+2023-07-06 12:24:00,494 - src.training.LSTM - INFO - 5d Encoder and Scaler saved to artifacts/1688663727
+2023-07-06 12:24:00,501 - src.training.LSTM - INFO - 5d LSTM Grid Search Started
+2023-07-06 12:28:19,789 - src.training.LSTM - INFO - 5d LSTM Grid Search Finished
+2023-07-06 12:28:19,790 - src.training.LSTM - INFO - 5d LSTM Best Hyperparameters: {'dropout': 0, 'initial_learning_rate': 0.01}
+2023-07-06 12:28:20,104 - src.training.LSTM - INFO - 5d LSTM Model Fitting Started
+2023-07-06 12:31:20,201 - src.training.LSTM - INFO - Model saved to artifacts/1688663727/LSTM
+2023-07-06 12:31:21,618 - src.training.LSTM - INFO - 5d LSTM Test Loss: 616.6576538085938, RMSE: 24.83259257122771
+2023-07-06 12:31:21,785 - src.training.LSTM - INFO - Figure saved to artifacts/1688663727/LSTM/5d_LSTM_loss_evolution.png
+2023-07-06 12:31:21,859 - src.training.CNN - INFO - 24h CNN Grid Search Started
+2023-07-06 12:32:01,016 - src.training.CNN - INFO - 24h CNN Grid Search Finished
+2023-07-06 12:32:01,016 - src.training.CNN - INFO - 24h CNN Best Hyperparameters: {'dropout': 0.2, 'initial_learning_rate': 0.01}
+2023-07-06 12:32:01,140 - src.training.CNN - INFO - 24h CNN Model Fitting Started
+2023-07-06 12:32:32,143 - src.training.CNN - INFO - Model saved to artifacts/1688663727/CNN
+2023-07-06 12:32:32,628 - src.training.CNN - INFO - 24h CNN Test Loss: 589.310546875, RMSE: 24.275719286459875
+2023-07-06 12:32:32,801 - src.training.CNN - INFO - Figure saved to artifacts/1688663727/CNN/24h_CNN_loss_evolution.png
+2023-07-06 12:32:32,863 - src.training.CNN - INFO - 5d CNN Grid Search Started
+2023-07-06 12:33:10,344 - src.training.CNN - INFO - 5d CNN Grid Search Finished
+2023-07-06 12:33:10,345 - src.training.CNN - INFO - 5d CNN Best Hyperparameters: {'dropout': 0, 'initial_learning_rate': 0.01}
+2023-07-06 12:33:10,454 - src.training.CNN - INFO - 5d CNN Model Fitting Started
+2023-07-06 12:33:35,975 - src.training.CNN - INFO - Model saved to artifacts/1688663727/CNN
+2023-07-06 12:33:36,498 - src.training.CNN - INFO - 5d CNN Test Loss: 670.5978393554688, RMSE: 25.895903910762968
+2023-07-06 12:33:36,664 - src.training.CNN - INFO - Figure saved to artifacts/1688663727/CNN/5d_CNN_loss_evolution.png
+2023-07-06 12:33:36,714 - src.training.XGBoost - INFO - 24h XGB Grid Search Started
+2023-07-06 12:37:57,361 - src.training.XGBoost - INFO - 24h XGB Grid Search Finished
+2023-07-06 12:37:57,363 - src.training.XGBoost - INFO - 24h XGB Best Hyperparameters:{'gamma': 0, 'learning_rate': 0.01, 'max_depth': 2, 'n_estimators': 500, 'subsample': 0.75}
+2023-07-06 12:37:57,365 - src.training.XGBoost - INFO - 24h XGB Model Fitting Started
+2023-07-06 12:38:04,820 - src.training.XGBoost - INFO - 24h XGB Model Fitting Finished
+2023-07-06 12:38:04,838 - src.training.XGBoost - INFO - XGB Model saved to artifacts/1688663727/XGB
+2023-07-06 12:38:04,882 - src.training.XGBoost - INFO - 24h XGB RMSE: 23.259255124076397
+2023-07-06 12:38:05,086 - src.training.XGBoost - INFO - Figure saved to artifacts/1688663727/XGB/24h_XGB_feature_importance.png
+2023-07-06 12:38:05,139 - src.training.XGBoost - INFO - 5d XGB Grid Search Started
+2023-07-06 12:42:08,020 - src.training.XGBoost - INFO - 5d XGB Grid Search Finished
+2023-07-06 12:42:08,021 - src.training.XGBoost - INFO - 5d XGB Best Hyperparameters:{'gamma': 0, 'learning_rate': 0.01, 'max_depth': 2, 'n_estimators': 500, 'subsample': 0.75}
+2023-07-06 12:42:08,021 - src.training.XGBoost - INFO - 5d XGB Model Fitting Started
+2023-07-06 12:42:14,953 - src.training.XGBoost - INFO - 5d XGB Model Fitting Finished
+2023-07-06 12:42:14,965 - src.training.XGBoost - INFO - XGB Model saved to artifacts/1688663727/XGB
+2023-07-06 12:42:15,000 - src.training.XGBoost - INFO - 5d XGB RMSE: 23.263184956167123
+2023-07-06 12:42:15,172 - src.training.XGBoost - INFO - Figure saved to artifacts/1688663727/XGB/5d_XGB_feature_importance.png
+2023-07-06 12:42:15,193 - src.training.model_comparison - INFO - Comparison DF Created and Saved to artifacts/1688663727/comparison_df.csv
+2023-07-06 12:42:15,212 - src.training.model_comparison - INFO - Best Model saved to artifacts/1688663727/Best_Model
+2023-07-06 12:42:15,690 - src.training.model_comparison - INFO - 24h data have been copied to artifacts/1688663727
+2023-07-06 12:42:15,709 - src.training.model_comparison - INFO - Best Model saved to artifacts/1688663727/Best_Model
+2023-07-06 12:42:16,225 - src.training.model_comparison - INFO - 5d data have been copied to artifacts/1688663727

@@ -1,0 +1,42 @@
+load_data:
+  order_by: 
+    - machineID
+    - datetime
+
+data_cleaning:
+  detect_negative: True
+  numeric_column_start: 3
+  numeric_column_end: 18
+
+app:
+  classification_columns_to_drop:
+  - Dataset
+  - failed
+  regression_columns_to_drop:
+  - Dataset
+  - RUL_piecewise
+  one_hot_encode:
+  - model
+  default_time: 24h
+  available_times: 
+  - 24h
+  - 5d
+  failure_default_model: Best_Model
+  failure_available_models:
+  - Best_Model
+  - LSTM
+  - Logistic
+  - XGB
+  classification_first_columns_order:
+  - machineID
+  - Predicted_Failure
+  - Probability(%)
+  - RUL
+  decision_boundary: 0.8
+  rul_default_model: Best_Model
+  rul_available_models:
+  - Best_Model
+  - LSTM
+  - CNN
+  - XGB
+  cutoff_value: 14

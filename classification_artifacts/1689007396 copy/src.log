@@ -1,0 +1,72 @@
+2023-07-10 11:43:16,427 - src.training.data_cleaning - INFO - No Negative Values Detected
+2023-07-10 11:43:16,617 - src.training.data_cleaning - INFO - All Columns Have Valid Inputs
+2023-07-10 11:43:20,528 - src.training.data_cleaning - INFO - No Duplicated Columns Detected
+2023-07-10 11:43:20,531 - src.training.time_dimension - INFO - 24h DataFrame Created
+2023-07-10 11:43:20,534 - src.training.time_dimension - INFO - 5d DataFrame Created
+2023-07-10 11:43:20,635 - src.training.LSTM - INFO - 24h Encoder and Scaler saved to artifacts/1689007396
+2023-07-10 11:43:20,644 - src.training.LSTM - INFO - 24h LSTM Grid Search Started
+2023-07-10 11:51:46,843 - src.training.LSTM - INFO - 24h LSTM Grid Search Finished
+2023-07-10 11:51:46,844 - src.training.LSTM - INFO - 24h LSTM Best Hyperparameters: {'dropout': 0.2, 'initial_learning_rate': 0.01}
+2023-07-10 11:51:47,162 - src.training.LSTM - INFO - 24h LSTM Model Fitting Started
+2023-07-10 11:54:19,512 - src.training.LSTM - INFO - Model saved to artifacts/1689007396/LSTM
+2023-07-10 11:54:22,163 - src.training.LSTM - INFO - 24h LSTM Test Loss: 0.2923155426979065, Recall: 0.8401680608497054, Precision: 0.06976744532585144, AUC:0.8344110250473022
+2023-07-10 11:54:22,597 - src.training.LSTM - INFO - Figure saved to artifacts/1689007396/LSTM/24h_LSTM_loss_evolution.png
+2023-07-10 11:54:24,777 - src.training.LSTM - INFO - Figure saved to artifacts/1689007396/LSTM/24h_LSTM_cm.png
+2023-07-10 11:54:26,532 - src.training.LSTM - INFO - Figure saved to artifacts/1689007396/LSTM/24h_LSTM_roc_curve.png
+2023-07-10 11:54:26,693 - src.training.LSTM - INFO - Figure saved to artifacts/1689007396/LSTM/24h_LSTM_precision_recall_curve.png
+2023-07-10 11:54:26,780 - src.training.LSTM - INFO - 5d Encoder and Scaler saved to artifacts/1689007396
+2023-07-10 11:54:26,790 - src.training.LSTM - INFO - 5d LSTM Grid Search Started
+2023-07-10 12:02:36,905 - src.training.LSTM - INFO - 5d LSTM Grid Search Finished
+2023-07-10 12:02:36,905 - src.training.LSTM - INFO - 5d LSTM Best Hyperparameters: {'dropout': 0, 'initial_learning_rate': 0.01}
+2023-07-10 12:02:37,232 - src.training.LSTM - INFO - 5d LSTM Model Fitting Started
+2023-07-10 12:05:09,957 - src.training.LSTM - INFO - Model saved to artifacts/1689007396/LSTM
+2023-07-10 12:05:11,535 - src.training.LSTM - INFO - 5d LSTM Test Loss: 0.11774301528930664, Recall: 0.5650909146866046, Precision: 0.16521738469600677, AUC:0.8197764754295349
+2023-07-10 12:05:11,708 - src.training.LSTM - INFO - Figure saved to artifacts/1689007396/LSTM/5d_LSTM_loss_evolution.png
+2023-07-10 12:05:13,958 - src.training.LSTM - INFO - Figure saved to artifacts/1689007396/LSTM/5d_LSTM_cm.png
+2023-07-10 12:05:15,667 - src.training.LSTM - INFO - Figure saved to artifacts/1689007396/LSTM/5d_LSTM_roc_curve.png
+2023-07-10 12:05:15,821 - src.training.LSTM - INFO - Figure saved to artifacts/1689007396/LSTM/5d_LSTM_precision_recall_curve.png
+2023-07-10 12:05:15,900 - src.training.Logistic - INFO - 24h Logistic Grid Search Started
+2023-07-10 12:05:38,321 - src.training.Logistic - INFO - 24h Logistic Grid Search Finished
+2023-07-10 12:05:38,321 - src.training.Logistic - INFO - 24h Logistic Best Hyperparameters: {'C': 0.1, 'penalty': 'l2'}
+2023-07-10 12:05:46,813 - src.training.Logistic - INFO - Logistic Model saved to artifacts/1689007396/Logistic
+2023-07-10 12:05:47,762 - src.training.Logistic - INFO - Figure saved to artifacts/1689007396/Logistic/24h_Logistic_cm.png
+2023-07-10 12:05:47,923 - src.training.Logistic - INFO - Figure saved to artifacts/1689007396/Logistic/24h_Logistic_roc_curve.png
+2023-07-10 12:05:48,077 - src.training.Logistic - INFO - Figure saved to artifacts/1689007396/Logistic/24h_Logistic_precision_recall_curve.png
+2023-07-10 12:05:48,262 - src.training.Logistic - INFO - Figure saved to artifacts/1689007396/Logistic/24h_Logistic_feature_importance.png
+2023-07-10 12:05:48,282 - src.training.Logistic - INFO - 24h Logistic Recall: 0.0,                     Precision: 0.0,                     AUC:0.7053878977333508
+2023-07-10 12:05:48,368 - src.training.Logistic - INFO - 5d Logistic Grid Search Started
+2023-07-10 12:05:54,894 - src.training.Logistic - INFO - 5d Logistic Grid Search Finished
+2023-07-10 12:05:54,894 - src.training.Logistic - INFO - 5d Logistic Best Hyperparameters: {'C': 0.1, 'penalty': 'l2'}
+2023-07-10 12:05:56,972 - src.training.Logistic - INFO - Logistic Model saved to artifacts/1689007396/Logistic
+2023-07-10 12:05:57,192 - src.training.Logistic - INFO - Figure saved to artifacts/1689007396/Logistic/5d_Logistic_cm.png
+2023-07-10 12:05:57,373 - src.training.Logistic - INFO - Figure saved to artifacts/1689007396/Logistic/5d_Logistic_roc_curve.png
+2023-07-10 12:05:57,548 - src.training.Logistic - INFO - Figure saved to artifacts/1689007396/Logistic/5d_Logistic_precision_recall_curve.png
+2023-07-10 12:05:57,753 - src.training.Logistic - INFO - Figure saved to artifacts/1689007396/Logistic/5d_Logistic_feature_importance.png
+2023-07-10 12:05:57,772 - src.training.Logistic - INFO - 5d Logistic Recall: 0.773109243697479,                     Precision: 0.03836530442035029,                     AUC:0.7929884825217215
+2023-07-10 12:05:57,873 - src.training.XGBoost - INFO - 24h XGB Grid Search Started
+2023-07-10 12:12:41,609 - src.training.XGBoost - INFO - 24h XGB Grid Search Finished
+2023-07-10 12:12:41,612 - src.training.XGBoost - INFO - 24h XGB Best Hyperparameters:{'colsample_bytree': 0.7, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 500, 'subsample': 1}
+2023-07-10 12:12:41,612 - src.training.XGBoost - INFO - 24h XGB Model Fitting Started
+2023-07-10 12:13:03,368 - src.training.XGBoost - INFO - 24h XGB Model Fitting Finished
+2023-07-10 12:13:03,384 - src.training.XGBoost - INFO - XGB Model saved to artifacts/1689007396/XGB
+2023-07-10 12:13:03,627 - src.training.XGBoost - INFO - Figure saved to artifacts/1689007396/XGB/24h_XGB_cm.png
+2023-07-10 12:13:03,832 - src.training.XGBoost - INFO - Figure saved to artifacts/1689007396/XGB/24h_XGB_roc_curve.png
+2023-07-10 12:13:03,984 - src.training.XGBoost - INFO - Figure saved to artifacts/1689007396/XGB/24h_XGB_precision_recall_curve.png
+2023-07-10 12:13:04,162 - src.training.XGBoost - INFO - Figure saved to artifacts/1689007396/XGB/24h_XGB_feature_importance.png
+2023-07-10 12:13:04,179 - src.training.XGBoost - INFO - 24h XGBoost Recall: 0.8067226890756303,                     Precision: 0.23132530120481928,                     AUC:0.9586880296673124
+2023-07-10 12:13:04,273 - src.training.XGBoost - INFO - 5d XGB Grid Search Started
+2023-07-10 12:19:36,684 - src.training.XGBoost - INFO - 5d XGB Grid Search Finished
+2023-07-10 12:19:36,686 - src.training.XGBoost - INFO - 5d XGB Best Hyperparameters:{'colsample_bytree': 0.7, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 500, 'subsample': 0.75}
+2023-07-10 12:19:36,686 - src.training.XGBoost - INFO - 5d XGB Model Fitting Started
+2023-07-10 12:19:57,287 - src.training.XGBoost - INFO - 5d XGB Model Fitting Finished
+2023-07-10 12:19:57,300 - src.training.XGBoost - INFO - XGB Model saved to artifacts/1689007396/XGB
+2023-07-10 12:19:57,543 - src.training.XGBoost - INFO - Figure saved to artifacts/1689007396/XGB/5d_XGB_cm.png
+2023-07-10 12:19:57,751 - src.training.XGBoost - INFO - Figure saved to artifacts/1689007396/XGB/5d_XGB_roc_curve.png
+2023-07-10 12:19:57,906 - src.training.XGBoost - INFO - Figure saved to artifacts/1689007396/XGB/5d_XGB_precision_recall_curve.png
+2023-07-10 12:19:58,089 - src.training.XGBoost - INFO - Figure saved to artifacts/1689007396/XGB/5d_XGB_feature_importance.png
+2023-07-10 12:19:58,106 - src.training.XGBoost - INFO - 5d XGBoost Recall: 0.9159663865546218,                     Precision: 0.22520661157024793,                     AUC:0.9809973494348234
+2023-07-10 12:19:58,121 - src.training.model_comparison - INFO - Comparison DF Created and Saved to artifacts/1689007396/comparison_df.csv
+2023-07-10 12:20:08,196 - src.training.model_comparison - INFO - Best Model saved to artifacts/1689007396/Best_Model
+2023-07-10 12:20:08,638 - src.training.model_comparison - INFO - 24h data have been copied to artifacts/1689007396
+2023-07-10 12:20:08,654 - src.training.model_comparison - INFO - Best Model saved to artifacts/1689007396/Best_Model
+2023-07-10 12:20:09,087 - src.training.model_comparison - INFO - 5d data have been copied to artifacts/1689007396
